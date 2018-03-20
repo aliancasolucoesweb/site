@@ -34,8 +34,8 @@
     </div>
     <div class="hero-body">
       <div class="container has-text-centered">
-
         <div class="column is-6 is-offset-3">
+          <p class="line-1 typewriter">Nosso trabalho é tornar seus sonhos em realidade... </p>
         </div>
       </div>
     </div>
@@ -56,6 +56,7 @@ export default {
 
 <style>
 .hero {
+  /* font-family: 'Lato', sans-serif; */
   /* background: #4396c63a;
   background: -webkit-linear-gradient(to top, #71c4dd, #6090a7);
   background: linear-gradient(to top, #aacac4, #6090a7); */
@@ -65,8 +66,31 @@ export default {
   opacity: 0.9;
   filter: alpha(opacity=10);
 
-
 }
 
+.line-1{
+    position: relative;
+    top: -30vh;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
 
+.typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
 </style>
