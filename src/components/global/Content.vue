@@ -1,11 +1,11 @@
 <template>
-<section class="hero is-info is-fullheight">
+<section class="hero is-white is-fullheight">
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href="../">
-              <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
+              <h4 class="title is-4">Aliança Soluções</h4>
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">
               <span></span>
@@ -16,6 +16,9 @@
           <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
               <a class="navbar-item is-active">
+                Sobre
+              </a>
+              <a class="navbar-item">
                 Quem Somos
               </a>
               <a class="navbar-item">
@@ -29,29 +32,10 @@
         </div>
       </nav>
     </div>
-
     <div class="hero-body">
       <div class="container has-text-centered">
-        <div class="column is-6 is-offset-3">
-          <h1 class="title">
-            Coming Soon
-          </h1>
-          <h2 class="subtitle">
-             $this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
-          </h2>
-          <div class="box">
 
-            <div class="field is-grouped">
-              <p class="control is-expanded">
-                <input class="input" type="text" placeholder="Enter your email">
-              </p>
-              <p class="control">
-                <a class="button is-info">
-                  Notify Me
-                </a>
-              </p>
-            </div>
-          </div>
+        <div class="column is-6 is-offset-3">
         </div>
       </div>
     </div>
@@ -60,11 +44,29 @@
 </template>
 
 <script>
+import { Carousel, Slide } from 'vue-carousel'
 export default {
+  name: 'contet-view',
+  components: {
+    Carousel, Slide
+  }
 
 }
 </script>
 
 <style>
+.hero {
+  /* background: #4396c63a;
+  background: -webkit-linear-gradient(to top, #71c4dd, #6090a7);
+  background: linear-gradient(to top, #aacac4, #6090a7); */
+  background-image: url("/static/change-your-mindset.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.9;
+  filter: alpha(opacity=10);
+
+
+}
+
 
 </style>
