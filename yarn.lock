@@ -1294,9 +1294,21 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
+bulma-extensions@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/bulma-extensions/-/bulma-extensions-1.0.13.tgz#36d1a22629fce09f0c369d5ddd6f8565a1df20a5"
+
+bulma-scss@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/bulma-scss/-/bulma-scss-0.6.0.tgz#aa81e4b9a2dea8e5f6d956419f6044c67a2551b2"
+
 bulma@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.6.2.tgz#f4b1d11d5acc51a79644eb0a2b0b10649d3d71f5"
+
+bulmaswatch@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/bulmaswatch/-/bulmaswatch-0.6.2.tgz#5d102b1986d5f48d7f45ff68354c5fe367dc1c76"
 
 bytes@3.0.0:
   version "3.0.0"
@@ -7388,6 +7400,10 @@ vm-browserify@0.0.4:
 void-elements@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
+
+vue-carousel@^0.6.9:
+  version "0.6.9"
+  resolved "https://registry.yarnpkg.com/vue-carousel/-/vue-carousel-0.6.9.tgz#b5cdd0abefdc8ae99fe48ecde1d765869f91df6d"
 
 vue-eslint-parser@^2.0.1:
   version "2.0.3"
